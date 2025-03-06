@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+    }
+
+body{
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* height: auto; */
+    align-items: center;
+    margin: 22px;
+}
+.logo{
+    /* position: relative;
+    top: 8px; */
+}
+.logo img{
+    width: 174px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+
+}
+.logo img:hover{
+    scale: 1.02;
+}
+.logo img:active{
+    scale: 0.8;
+}
+.Menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+    
+}
+ul > a{
+    list-style: none;
+    text-decoration: none;
+    color: #222;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    transition: all ease-in-out 0.4s;
+
+
+}
+ul > a:hover{
+    opacity: .7;
+}
+ul > a span{
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+main{
+    min-height: 70svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.heading{
+    font-size: 45px;
+}
+main > p{
+    font-size: 24px;
+    text-align: center;
+    width: 920px;
+    line-height: 1.2em;
+}
+main > button{
+    background: none;
+    border: none;
+    background-color: #09A6BD;
+    padding: 12px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: solid;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+main > button:hover{
+    box-shadow:  rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    scale: 1.02;
+    background-color: #09a5bdc8;
+}
