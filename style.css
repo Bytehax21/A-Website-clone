@@ -11,6 +11,7 @@
 
 body{
     height: 100vh;
+    background-color: #FFFFFF;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -99,4 +100,75 @@ main > button:hover{
     box-shadow:  rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     scale: 1.02;
     background-color: #09a5bdc8;
+}
+
+.logo2nd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0px 15px;
+    transform: translateX(-188px);
+}
+.logo2nd > img{
+    margin: 3px;
+}
+
+.Bg-txt{
+    font-size: 23px;
+}
+.small-txt{
+    font-size: 14px;
+    padding-top: 5px;
+}
+.container{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 210px 210px 210px 210px;
+    column-gap: 30px;
+    display: grid;
+}
+
+.box{
+    width: 290px;
+    height: 200px;;
+    background-color:  #F9F9F9;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+.lang{
+    font-size: 12px;
+    /* padding-top: 30px; */
+    margin-top: 9px;
+    text-align: center;
+}
+
+.first-text{
+    margin-bottom: 24px;
+}
+.box > h3{
+    text-align: center;
+}
+.box > button{
+    background: #5CB85C;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 15px;
+    margin: 29px 0px 10px 69px;
+}
+
+.first{
+    text-align: center;
+    font-size: 11px;
+}
+.second{
+    text-align: center;
+    font-size: 9px;
+    /* width: 100px; */
+    overflow-wrap: break-word;
+    line-height: 1.1rem;
 }
